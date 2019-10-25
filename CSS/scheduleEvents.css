@@ -212,11 +212,16 @@ html,body{
     background-color: lightblue;
     padding-top:0px;
     }
+.wrap .two button
+    {
+        margin-top: 100px;
+        padding: 10px;
+    }
 .wrap .two
     {
     text-align: center;
-    height:400px;
+    height:600px;
     background-color: lightgreen;
-    padding-top:150px;
+    /* padding-top:150px; */
     }
 

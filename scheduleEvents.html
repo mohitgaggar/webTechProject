@@ -13,13 +13,41 @@
 
 			</form>
 		</div>
+	<div class="two">
+		<button>Add a reminder</button>
 		
-		<p class="two">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+	<script>
+		let reminder=document.querySelector(".two");
+		// let ev=document.addEventListener("ul");
+		
+		let t=setInterval(timing,1000);
+
+		function timing()
+		{
+	
+			let date1 = new Date();
+			let date2 = new Date("Oct 24 2019 19:14:00");
+			let d=(date2 - date1) /1000;
+			let mins = (date2 - date1) / 1000 / 60 / 24;
+			if(mins <= 5)
+			{
+				// alert("Reminding u");
+			}
+			// console.log( "remain "  + days + " to <b>" +date2 + "</b>");
+			// document.write( " d "+d+ "</b>");
+		}
+
+	
+	</script>
+
+
+
+
+
+
+
 	</div>
 	<footer>
 		<div class="foot">

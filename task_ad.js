@@ -7,6 +7,8 @@ const list=document.querySelector('#task-list ol');
 // 	}
 // });
 
+
+
 // delete tasks
 list.addEventListener('click',function(e){
 	if(e.target.className=='delete')
