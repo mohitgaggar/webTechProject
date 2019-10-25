@@ -94,7 +94,7 @@ form button a{
 
 #register
 {
-    height: 18cm;
+    height: 800px;
     background-color: rgb(194, 197, 187);
 }
 #register form 
@@ -208,10 +208,31 @@ html,body{
 .wrap .one
     {
     text-align: center;
-    height:100px;
-    background-color: lightblue;
-    padding-top:0px;
+    height:600px;
+    background-color:rgb(56, 56, 56);
+    color:white;
+    padding-top:50px;
     }
+
+.wrap .one img
+    {
+        padding-top:50px;
+        float: right;
+        margin-right: 50px;
+        height:200px ;
+    }
+
+.wrap .one button
+    {
+        background-color: rgb(141, 137, 137);
+        color: black;
+        border-radius: 30%;
+        border: 0px;
+        margin:100px;
+        padding: 20px;
+        float: left;
+    }   
+
 .wrap .two
     {
     text-align: center;
