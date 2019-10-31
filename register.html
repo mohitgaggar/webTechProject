@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Register</title>
-    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
+    <link rel="stylesheet" href="CSS/style.css">
     
     <!-- <link rel="stylesheet" href="CSS/l"> -->
 </head>
@@ -14,14 +14,57 @@
             <br><input type="text" placeholder="Email" name="email">
             <input type="file" id="myfile" style="display:none"/>
             <br><input type="text" placeholder="Username" name="username">
-            <br><input type="text" placeholder="Password" name="password">
-            <br>Domains of Interest :<br>
+			<br><input type="text" placeholder="Password" name="password">
+			<br>Choose an avatar<br>
+			<br>
+			<span onclick="function1()" ><img src="Images/av1.jpg" alt="av1" id="av1"></span>
+			<span onclick="function2()" ><img src="Images/av2.png" alt="av2" id="av2"></span>
+			<span onclick="function3()" ><img src="Images/av3.png" alt="av3" id="av3"></span>
+			<span onclick="function4()" ><img src="Images/av4.jpg" alt="av4" id="av4"></span>
+			<br>
+			<br>
+            <!-- <br>Domains of Interest :<br>
             Science and technology : <input type="checkbox" name="science-and-technology"><br>
             Music :<input type="checkbox" name="music"><br>
-            Arts : <input type="checkbox" name="arts"><br>
+			Arts : <input type="checkbox" name="arts"><br>
+			 -->
+			<p>Enter a subtopic</p>
+			<input type="text">
 
             <button type="submit" name="login">Register</button>
-        </form>
+		</form>
+		<script>
+			let avatar1=document.getElementById("av1");
+			let avatar2=document.getElementById("av2");			
+			let avatar3=document.getElementById("av3");
+			let avatar4=document.getElementById("av4");
+			
+			function function1(){
+				avatar1.style.border="black solid";
+				avatar2.style.border=0;
+				avatar3.style.border=0;
+				avatar4.style.border=0;
+				
+			}
+			function function2(){
+				avatar2.style.border="black solid";
+				avatar1.style.border=0;
+				avatar3.style.border=0;
+				avatar4.style.border=0;
+			}
+			function function3(){
+				avatar3.style.border="black solid";
+				avatar2.style.border=0;
+				avatar1.style.border=0;
+				avatar4.style.border=0;
+			}
+			function function4(){
+				avatar4.style.border="black solid";
+				avatar2.style.border=0;
+				avatar3.style.border=0;
+				avatar1.style.border=0;
+			}
+		</script>
     </div>
 	
 	<footer>
