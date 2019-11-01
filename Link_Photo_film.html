@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Learning & Hobbies</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="hthtps://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <script src="adder.js"></script>
+    <body>
+        <a href="#"><h1>Title of the Project</h1></a>
+        <nav class="navbar navbar-expand-sm bg-warning navbar-light">
+                <a class="nav-brand" href="#">≡</a> 
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>UserName</b></a> 
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#"><b>Home</b></a> 
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#"><b>Schedule My Events</b></a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>My Interests</b></a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>My Learning & Hobbies</b></a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>Help & FAQ</b></a> 
+                    </li>
+                </ul>
+            </nav>
+        <a href="#"><h1 style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 50px">Photography and Film Making</h1></a>
+        <ul>
+        <br><br>
+        <div class="panel-group">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse1"><button type="button" class="btn btn-primary btn-lg btn-block" style="font-size: 25px;width:60%"">Best E-Books & PDFs</button></a>
+                </h4>
+            <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.pdfdrive.com/film-directing-shot-by-shot-visualizing-from-concept-to-screen-e188230512.html" target="_blank">Film-Making Shot By film-directing-shot-by-shot-visualizing-from-concept-to-screen</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://strobist.blogspot.com/2007/11/lighting-101-now-available-in-pdf.html?m=1" target="_blank">Lighting 101 for Photography and Film-Making</div>
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.pdfdrive.com/category/20 " target="_blank">Best PDFs on Photography and its Advanced Technologies</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.pdfdrive.com/substance-structure-style-and-the-principles-of-screenwriting-e33409480.html" target="_blank">How to Capture Story through Lens</div>
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.pdfdrive.com/search?q=Best+Photography+&pagecount=&pubyear=&searchin= " target="_blank">Best PDFs on Photography and its Advanced Technologies</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.pdfdrive.com/screenplay-the-foundations-of-screenwriting-revised-updated-e162507542.html" target="_blank">Screen-Writing For Fim Making</a></div>
+                <button style="font-size: 20px;width:30%;background-color: coral;" onclick="add(0)">Add E-books or PDFs link</button>
+            </div> 
+        </div>
+        <br><br>
+        <div class="panel-group">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse2"><button type="button" class="btn btn-primary btn-lg btn-block" style="font-size: 25px;width:60%">Best Websites and Blogs</button></a>
+                </h4>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.geofflawrence.com/index.html" target="_blank">GeoffLawrence</a></div>
+              <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://digital-photography-school.com" target="_blank">Digital Photography-school</a></div>
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.popphoto.com" target="_blank">Pop-Photo</a></div>
+              <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.google.com/amp/s/www.bhphotovideo.com/explora/amp/video/tips-and-solutions/filmmaking-101-camera-shot-types" target="_blank">Film-Making Shot By film-directing-shot-by-shot</a></div>
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="http://actioncutprint.com" target="_blank">ActionCutPrint</a></div>
+              <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://blog.feedspot.com/filmmaking_blogs/" target="_blank">Best Film-Making BlogSpot</a></div>
+              <button style="font-size: 20px;width:30%;background-color: coral;" onclick="add(1)">Add Websites or Blog link</button>
+            </div>
+          </div>
+        <br><br>
+        <div class="panel-group">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse3"><button type="button" class="btn btn-primary btn-lg btn-block" style="font-size: 25px;width:60%">Best Webinars and Videos</button></a>
+                </h4>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.fulltimefilmmaker.com/" target="_blank">FullTimeFilmmaker</a></div>
+              <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.nyfa.edu/" target="_blank">New York Film Academy</a></div>
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://nofilmschool.com/tags/webinar" target="_blank">NoFilmSchool</a></div>
+              <button style="font-size: 20px;width:30%;background-color: coral;" onclick="add(2)">Add Videos or Webinars link</button>
+              </div>
+          </div>
+        <br><br>
+        <div class="panel-group">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse4"><button type="button" class="btn btn-primary btn-lg btn-block" style="font-size: 25px;width:60%">Online Application Softwares and Platforms</button></a>
+                </h4>
+            <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.gimp.org/" target="_blank">GNU Image Manipulation Program</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://ipiccy.com/" target="_blank">Ipiccy</div>
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://pixlr.com/" target="_blank">Pixlr X</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.fotor.com/" target="_blank">Fotor</div>
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.onlinephotoshopfree.info/" target="_blank">OnlinePhotoShopfree</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://animoto.com/" target="_blank">Animoto</div>
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="http://www.videotoolbox.com/" target="_blank">Videotoolbox</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://clipchamp.com/en/" target="_blank">Clipchamp</div>
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://spark.adobe.com/" target="_blank">Spark Adobe</a></div>
+                <button style="font-size: 20px;width:30%;background-color: coral;" onclick="add(3)">Add Online Platforms and Application Software Download link</button>
+            </div>
+          </div>
+        <br><br>
+        </ul>
+    </body>
+</html>
+

@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>Learning & Hobbies</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="hthtps://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <script src="adder.js"></script>
+    <body>
+        <a href="#"><h1>Title of the Project</h1></a>
+        <nav class="navbar navbar-expand-sm bg-warning navbar-light">
+                <a class="nav-brand" href="#">≡</a> 
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>UserName</b></a> 
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#"><b>Home</b></a> 
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#"><b>Schedule My Events</b></a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>My Interests</b></a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>My Learning & Hobbies</b></a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>Help & FAQ</b></a> 
+                    </li>
+                </ul>
+            </nav>
+        <a href="#"><h1 style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 50px">Literature and Creative Writing</h1></a>
+        <ul>
+        <br><br>
+        <div class="panel-group">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse1"><button type="button" class="btn btn-primary btn-lg btn-block" style="font-size: 25px;width:60%"">Best E-Books & PDFs</button></a>
+                </h4>
+            <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.pdfdrive.com/category/11" target="_blank">Best Books,Novels and Dramatic Plays</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.pdfdrive.com/search?q=best+books+for+learning+story+writing&pagecount=&pubyear=&searchin=" target="_blank">Best E-Books to learn Creatuve Writing</div>
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="http://www.pdfbooksworld.com/Fiction-Novels-EBooks" target="_blank">Fiction Novels and E-Books</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.matrubharti.com/book/english" target="_blank">GrubStreet E-Books</div>
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.pdfdrive.com/substance-structure-style-and-the-principles-of-screenwriting-e33409480.html" target="_blank">Best E-books to learn Story-Writing</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.pdfdrive.com/screenplay-the-foundations-of-screenwriting-revised-updated-e162507542.html" target="_blank">Best PDFs to learn Screen-Writing</a></div>
+                <button style="font-size: 20px;width:30%;background-color: coral;" onclick="add(0)">Add E-books or PDFs link</button>
+            </div> 
+        </div>
+        <br><br>
+        <div class="panel-group">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse2"><button type="button" class="btn btn-primary btn-lg btn-block" style="font-size: 25px;width:60%">Best Websites and Blogs</button></a>
+                </h4>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.studiobinder.com/" target="_blank">StudioBinder</a></div>
+              <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://gointothestory.blcklst.com/" target="_blank">Go into the story</a></div>
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://savethecat.com/" target="_blank">Save the Cat</a></div>
+              <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.matrubharti.com/book/english" target="_blank">GrubStreet</a></div>
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.feedspot.com/infiniterss.php?q=site:http%3A%2F%2Ffeeds.feedburner.com%2FWritingForward " target="_blank">Writing Forward</a></div>
+              <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.feedspot.com/infiniterss.php?q=site:http%3A%2F%2Femmadarwin.typepad.com%2Fthisitchofwriting%2Frss.xml" target="_blank">The Itch of Writing</a></div>
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://authorkristenlamb.com/" target="_blank">Kristen Lamb Blogger</a></div>
+              <button style="font-size: 20px;width:30%;background-color: coral;" onclick="add(1)">Add Websites or Blog link</button>
+            </div>
+          </div>
+        <br><br>
+        <div class="panel-group">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse3"><button type="button" class="btn btn-primary btn-lg btn-block" style="font-size: 25px;width:60%">Best Webinars and Videos</button></a>
+                </h4>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.youtube.com/user/Katytastic/featured" target="_blank">Katytastic For Learning</a></div>
+              <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.youtube.com/channel/UCS_fcv9kBpDN4WWrfcbCrgw" target="_blank">Writing with Jenna Moreci</a></div>
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.classcentral.com/report/writing-free-online-courses/ " target="_blank">ClassCentral Courses</a></div>
+              <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.youtube.com/user/filmcourage" target="_blank">FilmCourage</a></div>
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.youtube.com/user/fastscreenplay" target="_blank">Fast Screenplay</a></div>
+              <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.youtube.com/user/TheDialogue " target="_blank">The Dialogue</a></div>
+              <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.youtube.com/user/celtx" target="_blank">Celtx Learner for Writing</a></div>
+              <button style="font-size: 20px;width:30%;background-color: coral;" onclick="add(2)">Add Videos or Webinars link</button>
+              </div>
+          </div>
+        <br><br>
+        <div class="panel-group">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse4"><button type="button" class="btn btn-primary btn-lg btn-block" style="font-size: 25px;width:60%">Online Application Softwares and Platforms</button></a>
+                </h4>
+            <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.celtx.com/index.html" target="_blank">Celtx</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.studiobinder.com/scriptwriting-software/" target="_blank">StudioBinder</div>
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://writerduet.com/" target="_blank">Writer Duet</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://www.fadeinpro.com/index.pl?%20target=" target="_blank">Fade in</div>
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.trelby.org/" target="_blank">Trelby</a></div>
+                <div class="panel-footer"><a style="font-size: 20px;width:60%" href="https://quoteunquoteapps.com/highland-2/" target="_blank">HighLand</a></div>
+                <div class="panel-body"><a style="font-size: 20px;width:60%" href="https://www.literatureandlatte.com/scrivener/overview" target="_blank">Scrivener</a></div>
+                <button style="font-size: 20px;width:30%;background-color: coral;" onclick="add(3)">Add Online Platforms and Application Software Download link</button>
+            </div>
+          </div>
+        <br><br>
+        </ul>
+    </body>
+</html>
+
