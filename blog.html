@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+            /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+            .row.content {height: 1230px}
+            
+            /* Set gray background color and 100% height */
+            .sidenav {
+              background-color: #f1f1f1;
+              height: 100%;
+            }
+            
+            /* On small screens, set height to 'auto' for sidenav and grid */
+            @media screen and (max-width: 767px) {
+              .sidenav {
+                height: auto;
+                padding: 15px;
+              }
+              .row.content {height: auto;} 
+            }
+          </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-3 sidenav">
+                <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;"><b>My Blog</b></h3>
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#section1">Science & Technology</a></li>
+                    <li><a href="#section2">Business Studies and Management</a></li>
+                    <li><a href="#section3">Fine Arts and Designing</a></li>
+                    <li><a href="#section4">Music and Dance</a></li>
+                </ul><br>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search Blog..">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">
+                      <span class="glyphicon glyphicon-search"></span>
+                      </button>
+                    </span>
+                </div>
+            </div> 
+           
+            <div class="col-sm-9">
+              <h4><small>Recent Posts</small></h4>
+              <hr>
+              <h2>How do Science and Technology help us in Our Daily life?</h2>
+              <h5><span class="glyphicon glyphicon-time"></span> Post by Username, Nov 5, 2019</h5>
+              <h5><span class="label label-danger">Science</span> <span class="label label-primary">Technology</span></h5><br>
+              <p><b>Importance of Science & Technology in our Daily Life</b><br>Almost everything that we see around us is the gift of science and technology. Be it the smart-phones, fan, wheel, vehicles, cloth, paper, toothbrush, electricity, microwave, vehicles, radio, television, laptops, etc., everything is the result of science and technology. Let us glance through the importance of science & technology in detail:It helps us save time & money – Various contributions of science and technology have helped us save time and money. While science has given us the knowledge why baked or steam- cooked food is better than the fried or oily food, technology has gifted us with microwave and steam-cookers that help us bake and steam cook our food. Various objects and devices like computers, modes of transport, washing machines or just anything else help us save our time and money.Education – Science & technology have made significant contribution in the education field as well. Science has given us immense knowledge and therefore, we have got important matter to study. Technology has made education itself easier. </p>
+              <p>It has provided us options like smart classes, multimedia devices, e-libraries, e-books, etc. Internet – Information technology, including internet, is an excellent gift of technology. With the help of internet, we do not only get immense knowledge on science and other subjects, but we also get to stay connected with our friends and family, continuously. Provides us devices for comfortable sleeping, quick cooking and fast commute – In short, science and technology have made our life easier. With the help of objects like A.C, microwave, and vehicles, science and technology have made our sleeping, cooking and commute process easier and faster, respectively!It helps us live a better life – While science has made significant contributions in health by providing treatment for various chronic diseases, technology has benefited us in receiving those treatments through various ways and devices like X-ray, scan machines, operation devices, pacemaker and much more! We are also blessed with numerous exercising equipment, various health apps, online doctor and other things that help us maintain good health and life.</p>
+              <button class="btn btn-success">Create New Blog Post</button>
+              <br><br>
+              
+              <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="av1.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4><b>John Roy</b><br><small> Nov 8, 2019, 9:12 PM</small></h4><br>
+          <p>Keep up the GREAT work! I am cheering for you!! Your Blog helped me so much to know many things</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="av4.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4><b>Ushavani</b><br><small> Nov 9, 2019, 8:25 PM</small></h4><br>
+          <p>I am so happy for you man! Finally. I am looking forward to read about your trendy info..</p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="av1.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4><b>John Roy</b><br><small>Nov 9, 2019, 8:30 PM</small></h4><br>
+              <p>Me too! WOW!</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
