@@ -3,8 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Task-Adder</title>
-<link rel="stylesheet" href="task_add.css">
-  </head>
+	<link rel="stylesheet" href="task_add.css">
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+	<!-- Font Awesome -->
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+<!-- JavaScript -->
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+</head>
   <body>
   	<div id="wrapp">
 	    <header>
@@ -19,7 +37,7 @@
 	    <div id="task-list">
 	    	<h2 class="title-task">Tasks to do</h2>
 	    	<ol>
-	    		<li>
+	    		<!-- <li>
 	    			<span class="name">Gardening</span>
 	    			<span class="delete">delete</span>
 	    		</li>
@@ -34,16 +52,22 @@
 	    		<li>
 	    			<span class="name">Get Up</span>
 	    			<span class="delete">delete</span>
-	    		</li>
-	    	</ul>
+	    		</li> -->
+			</ul>
+			
 	    </div>
 	    <form id="add-task">
         <input type="checkbox" id="hide" />
         <label for="hide">Hide all Tasks</label>
-	    	<input type="text" id="input-taskadd" autocomplete="off" placeholder="Add a Task..." />
+			<input type="text" id="input-taskadd" autocomplete="off" placeholder="Add a Task..." />
+			<input type="time" name="time1" class="time0">
+			<input type="time" name="time2" class="time1">
+			<br>
 	    	<button>Add</button>
+			<!-- <button id="piechart">PieChart</button> -->
+			<canvas id="pieChart_make"></canvas>
 	    </form>
     </div>
-    <script src="task_ad.js"></script>
+	<script src="task_ad.js"></script>
   </body>
 </html>
