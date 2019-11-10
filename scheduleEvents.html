@@ -1,95 +1,55 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html>
-<head>
-	<title>Template</title>
+  <head>
+    <meta charset="utf-8">
+    <title>Add Notes</title>
 	<link rel="stylesheet" href="CSS/scheduleEvents.css">
 </head>
-<body>
-	<p>NAVBAR MAKE STYLISH AND SOME SPACE</p><br>
-	<div class="wrap">
-		<div class="one">
-			<form >
-				<p>Choose a Date:</p><input type="date" style="padding:10px;color: black;background-color: antiquewhite;" name="date">
-
-			</form>
-		</div>
-	<div class="two">
-		<button>Add a reminder</button>
-		
-	</div>
-
-	<script>
-		let reminder=document.querySelector(".two");
-		// let ev=document.addEventListener("ul");
-		
-		let t=setInterval(timing,1000);
-
-		function timing()
-		{
-	
-			let date1 = new Date();
-			let date2 = new Date("Oct 24 2019 19:14:00");
-			let d=(date2 - date1) /1000;
-			let mins = (date2 - date1) / 1000 / 60 / 24;
-			if(mins <= 5)
-			{
-				// alert("Reminding u");
-			}
-			// console.log( "remain "  + days + " to <b>" +date2 + "</b>");
-			// document.write( " d "+d+ "</b>");
-		}
-
-	
-	</script>
-
-
-
-
-
-
-
-	</div>
-	<footer>
-		<div class="foot">
-			<div class="foot-cont">
-				<div class="foot-sec about">
-					<h1>Our Forum</h1>
-					<p>Like we are trying to make a forum. So we want to make a forum. Ya Forum</p>
-					<div class="con">
-					
-					<span>&nbsp; abhibenne@gmail.com</span>
-					<span>&nbsp; another logo</span>
-					<br>
-					<span>&nbsp; gaggarmohit@gmail.com</span>
-					<span>&nbsp; another logo</span>
-					<br>
-					<span>&nbsp; sreekanth_idk@gmail.com</span>
-					<span>&nbsp; another logo</span>
-				</div>
-			</div>
-			<div class="foot-sec link">
-				<h2>Links</h2><br>
-				<ul>
-					<li><a href="#">Link1</a></li>
-					<li><a href="#">Link2</a></li>
-					<li><a href="#">Link3</a></li>
-					<li><a href="#">Terms and stuff</a></li>	
-				</ul>
-			</div>
-			<div class="foot-sec contact">
-				<h2>Contact Us</h2>
-				<br>
-				<form>
-					<input type="email" name="mail" placeholder="Your email address.."></input><br>
-					<input type="text-area" name="ta" placeholder="Describe.."></input><br>
-					<button type="submit">Submit</button>
-				</form>
-			</div>
-		</div>
-		<div class="foot-bottom">
-			&copy; ourforum.com | Designed with love by Our team 
-		</div>
-	</div>
-</footer>
-</body>
+  <body>
+  	<div id="wrapp">
+	    <header>
+	    	<div id="page_top">
+	    		<h1 class="title">Notes</h1>
+          <!-- <p>Simple page to add tasks</p> -->
+          <form id="search-task">
+            <input type="text" id="search-inp" autocomplete="off" placeholder="Search For a note..." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="task-list">
+	    	<h2 class="title-task">Your notes</h2>
+	    	<ol></ol>
+	    </div>
+	    <form id="add-task">
+        <input type="checkbox" id="hide" />
+        <label for="hide">Hide all Notes</label>
+			<input type="text" id="input-taskadd" autocomplete="off" placeholder="Add a note..." />
+			<br>
+	    	<button>Add</button>
+	    </form>
+    </div>
+	<script src="scheduleEvents.js"></script>
+  </body>
 </html>
+<!-- 
+
+
+let reminder=document.querySelector(".two");
+// let ev=document.addEventListener("ul");
+
+let t=setInterval(timing,1000);
+
+function timing()
+{
+
+	let date1 = new Date();
+	let date2 = new Date("Oct 24 2019 19:14:00");
+	let d=(date2 - date1) /1000;
+	let mins = (date2 - date1) / 1000 / 60 / 24;
+	if(mins <= 5)
+	{
+		// alert("Reminding u");
+	}
+	// console.log( "remain "  + days + " to <b>" +date2 + "</b>");
+	// document.write( " d "+d+ "</b>");
+} -->

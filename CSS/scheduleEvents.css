@@ -1,227 +1,120 @@
- *{
-    padding: 0;
-    margin: 0;
-}
-
 body{
-    background: yellow;
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
 }
 
-header{
-    display: flex;
-    padding: 0px 0px 10px 10px;
-    border-bottom: 3px black solid;
-    margin-bottom: 0px;
-    background-image:linear-gradient(45deg,#a3acac 0%,#f4f8f8 100%); 
-
+#wrapp{
+    width: 70%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+   /* box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;*/
+    padding: 0 0 20px;
+    /*overflow: hidden;*/
+    border: 1px solid lightgray;
 }
 
-header img{
-    height:80px ;
-    border-radius: 50%;
-    /* border: 1px red solid;  */
-
-}
-
-header h1{
-    
-    margin: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px red solid;
-}
-
-
-#nav-ki-id{
-
-}
-ul a{
-    
-    color: rgb(198, 211, 12);
-    padding:5px 5px;
-    /* border: 1px; */
-    border-radius: 30%;
-    text-decoration: none; 
-}
-.container{
-    padding: 0px 0px;
-
-}
-form{
-    margin-left: 0;
-}
-form button{
-    font-size: 25px;
-    background-color: rgb(163, 160, 160);
-}
-form button a{
-    text-decoration: none; 
-    color:#ffffff;
-}
-
-#login
-{
-    height: 18cm;
-    background-color: rgb(194, 197, 187);
-
+#page_top{
+    background: rgb(172, 243, 125) ;
+    padding: 10px 0;
 
 }
 
-#login form 
-{
-    padding-left: 500px;
-    /* margin-left: 500px; */
-    padding-top:200px;
-    font-size: 25px; 
-}
-
-#login form input
-{
-    height:5%;
-    width:40%;
-    margin-bottom: 30px ;
-    background-color: #686868;
-    color: #fff;
-    border: 0;
-    font-size: 25px;
-}
-
-#login form button
-{
-    padding:5px;
-    /* margin:10px; */
-}
-
-#register
-{
-    height: 18cm;
-    background-color: rgb(194, 197, 187);
-}
-#register form 
-{
-    padding-left: 500px;
-    /* margin-left: 500px; */
-    padding-top:50px;
-    font-size: 25px; 
-}
-#register form button
-{
-    padding:5px;
-    /* margin:10px; */
-}
-
-#register form input
-{
-    height:5%;
-    width:40%;
-    margin-bottom: 30px ;
-    background-color: #686868;
-    color: #fff;
-    border: 0;
-    font-size: 25px;
-}
-
-.one form p{
-    font-size: 20px;
-    padding:10px;
-
-}
-
-#profile-pic img  
-{
-    height:160px;
-    width: 160px;
-    border-radius: 50%;
-}
-
-#upload-pic
-{
-    font-size: 5px; 
-}
-
-ul a:hover{
-    background-color: aqua;
-    color:black;
-    background-image:linear-gradient(45deg,rgb(186, 219, 40) 0%,#07f8f8 100%); 
-    padding:5px 5px;
-    /* border: 1px blue solid; */
-    border-radius: 10%;
-}
-nav{
-    display: block;
-    padding: 10px;
-    /* border: 2px red solid; */
-}
-
-nav img{
-    height:30px ;
-    border-radius: 45%;
-}
-
-ul{
-    list-style-type:none; 
-    overflow: hidden;
-    font-size: 20px;
-}
-
-li{
-    /* float: left; */
-    margin:10px 10px;
-
-}
- 
-
-html,body{
-    height:100%;
-    }
-.wrap{
-    min-height: 100%;
-    }
-.foot{
-    background: #303036;
-    color: #d3d3d3;
-    height: 350px;
-    position:relative;
-    }
-.foot .foot-bottom{
-    background: #343a40;
-    color: #686868;
-    height: 30px;
-    text-align:center;
-    width:100%;
-    position: absolute;
-    bottom: 0px;
-    padding-top: 10px;
-    }
-
-.foot .foot-cont .foot-sec{
-    flex:1;
-    border: 1px solid white;
-    padding:20px;
-    }
-.foot .foot-cont{
-    height:310px;
-    border:1px solid red;
-    display:flex;
+#page_top h1, #page_top p{
     width: 100%;
-    }
-.wrap .one
-    {
     text-align: center;
-    height:100px;
-    background-color: lightblue;
-    padding-top:0px;
-    }
-.wrap .two button
-    {
-        margin-top: 100px;
-        padding: 10px;
-    }
-.wrap .two
-    {
-    text-align: center;
-    height:600px;
-    background-color: lightgreen;
-    /* padding-top:150px; */
-    }
+    margin: 10px 0;
+}
 
+#page_top input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+#task-list, #add-book, #tabbed-content{
+    margin: 30px;
+}
+
+#task-list ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+
+#task-list li:hover{
+    border-color: #dfdb05;
+}
+
+.delete{
+    float: right;
+    background: #dfdb05;
+    padding: 6px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover{
+    background: rgb(103, 145, 5);
+}
+
+#add-task{
+    width: 400px;
+    margin: auto;
+}
+
+#add-task input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+}
+
+#add-task button{
+    border: 1px solid #dfdb05;
+    background: #dfdb05;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float:left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#add-task:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#add-task #hide{
+  width: 30px;
+}
+
+#add-task label{
+  line-height: 50px;
+}
