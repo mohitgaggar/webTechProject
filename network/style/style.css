@@ -1,0 +1,75 @@
+#login
+{
+    height: 18cm;
+    background-color: rgb(194, 197, 187);
+}
+
+#login form 
+{
+    padding-left: 500px;
+    /* margin-left: 500px; */
+    padding-top:200px;
+}
+
+#login form input
+{
+    height:5%;
+    width:40%;
+    margin-bottom: 30px ;
+    background-color: #686868;
+    color: #fff;
+    border: 0;
+}
+
+#login form button
+{
+    padding:5px;
+    /* margin:10px; */
+}
+
+#register
+{
+    height: 800px;
+    background-color: rgb(194, 197, 187);
+}
+#register form 
+{
+    padding-left: 500px;
+    /* margin-left: 500px; */
+    padding-top:50px; 
+}
+#register form button
+{
+    padding:5px;
+    /* margin:10px; */
+}
+
+#register form input
+{
+    height:5%;
+    width:40%;
+    margin-bottom: 30px ;
+    background-color: #686868;
+    color: #fff;
+    border: 0;
+}
+
+/*.one form p{
+    font-size: 20px;
+    padding:10px;
+
+}*/
+
+#profile-pic img  
+{
+    height:160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+#register form span img
+{
+   height: 100px;
+   width: 100px;
+   border-radius:20%; 
+}
