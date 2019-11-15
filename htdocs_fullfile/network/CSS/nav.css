@@ -1,0 +1,131 @@
+/*
+id one covers the div which contains the entire navbar.
+position is fixed and z-index to high value so it floats over others.
+*/
+#one{
+background: rgba(85,214,170,.85);
+text-align: center;
+position: fixed;
+z-index:999;
+width: 100%;
+}
+
+nav{
+position: absolute;
+text-align: left;
+top:100%;
+left: 0;
+background:rgba(85,214,170,.85);
+width: 100%;
+transform: scale(1,0);
+transform-origin: top;
+transition: transform 400ms ease-in-out;
+}
+nav ul{
+margin: 0;
+padding:0;
+list-style: none;
+}
+nav li{
+margin-bottom: 1em;
+margin-left: 1em;
+}
+nav a{
+color: white;
+text-decoration: none;
+font-size: 1.2rem;
+text-transform: uppercase;
+opacity: 0;
+transition: opacity 150ms ease-in-out ;
+}
+nav a:hover {
+color:#000;
+
+}
+.nav-toggle:checked~nav{
+transform: scale(1,1);
+}
+.nav-toggle:checked ~ nav a{
+opacity:1;
+transition: opacity 250ms ease-in-out 250ms;
+}
+.nav-toggle{
+display: none;
+}
+.nav-toggle-label{
+position: absolute;
+top:0;
+left:0;
+margin-left: 1em;
+height:100%;
+display: flex;
+align-items: center;
+}
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+display: block;
+background:white;
+height: 2px;
+width:2em;
+border-radius: 2px;
+position: relative;
+}
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+content: "";
+position: absolute;
+}
+.nav-toggle-label span::before{
+bottom:7px;
+}
+.nav-toggle-label span::after{
+top:7px;
+}
+@media screen and (min-width: 1200px)
+{
+.nav-toggle-label{
+display: none;
+}
+#one{
+display: grid;
+grid-template-columns: 1fr auto minmax(600px,1fr) 1fr;
+}
+.logo{
+grid-column: 1 / span 1;
+}
+
+nav{
+all: unset;
+grid-column: 3/4;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+nav a{
+opacity: 1;
+position: relative;
+}
+nav ul{
+display: flex;
+}
+nav li{
+margin-left: 3em;
+margin-bottom: 0;
+}
+nav a::before{
+content: " ";
+display: block;
+height: 2px;
+background:black;
+position: absolute;
+top: -.75em;
+left:0;
+right:0;
+transform: scale(0,1);
+transition: transform ease-in-out 250ms;
+}
+nav a:hover::before{
+transform: scale(1,1);
+}
+}

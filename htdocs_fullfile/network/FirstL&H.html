@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Learning & Hobbies</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color:#303036;;
+  padding: 30px;
+  text-align: center;
+  color:navajowhite;
+  font-size: 35px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Create three equal columns that floats next to each other */
+
+.card-container {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+.card {
+    box-shadow: 0px 1px 5px #555;
+    background-color: white;
+}
+
+.button {
+    display: block;
+    background-color: tomato;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s ease-out;
+    hover {
+        background-color: darken(tomato, 10%);
+    }
+}
+img {
+    max-width: 100%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+
+.wrap{
+		 	min-height: 100%;
+		 }
+		 .foot{
+		 	background: #303036;
+		 	color: #d3d3d3;
+		 	height: 320px;
+		 	position:relative;
+		 }
+		 .foot .foot-bottom{
+		 	background: #343a40;
+		 	color: #686868;
+		 	height: 30px;
+		 	text-align:center;
+		 	width:100%;
+		 	position: absolute;
+		 	bottom: 10px;
+		 	padding-top: 10px;
+		 	
+		 }
+		 .foot .foot-cont .foot-sec{
+		 	flex:1;
+		 	border: 1px solid white;
+		 	padding:20px;
+		 }
+		 .foot .foot-cont{
+		 	height:310px;
+		 	border:1px solid red;
+		 	display:flex;
+		 	width: 100%;
+		 }
+		 .wrap .one
+		 {
+		 	text-align: center;
+		 	height:400px;
+		 	background-color: lightblue;
+		 	padding-top:150px;
+		 }
+		.wrap .two
+		 {
+		 	text-align: center;
+		 	height:400px;
+		 	background-color: lightgreen;
+		 	padding-top:150px;
+		 }
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="header">
+  <h1><b>Learning & Hobbies</b></h1>
+</div>
+<nav class="navbar navbar-expand-sm bg-warning navbar-light" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size: large;">
+    <a class="nav-brand" href="#"><b>≡</b></a> 
+    <ul class="navbar-nav">
+        <li class="nav-item">
+           <a class="nav-link" href="homepage.html"><b>Home</b></a> 
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="#"><b>Schedule My Events</b></a> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Interests.html"><b>My Interests</b></a> 
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="FirstL&H.html"><b>My Learning & Hobbies</b></a> 
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><b>Help & FAQ</b></a> 
+        </li>
+    </ul>
+</nav>
+
+<section class="card-container">
+  <article class="card">
+      <figure class="card__thumbnail">
+          <img src="Images/photography.jpg" height="200px" width="100%">
+      </figure>
+      <a href="Link_Photo_film.html" class="button" target="_blank"><b>Photography & Film Making</b></a>
+  </article>
+  <article class="card">
+    <figure class="card__thumbnail">
+        <img src="Images/literature.jpg" height="200px" width="100%">
+    </figure>
+    <a href="LInk_Literature_CW.html" class="button" target="_blank"><b>Literature & Creative-Writing</b></a>
+  </article>
+  <article class="card">
+    <figure class="card__thumbnail">
+        <img src="Images/painting.jpg" height="200px" width="100%">
+    </figure>
+    <a href="Links_Drawing_Painting.html" class="button" target="_blank"><b>Drawing & Painting</b></a>
+  </article>
+  <article class="card">
+    <figure class="card__thumbnail">
+        <img src="Images/gaming.jpg" height="200px" width="100%">
+    </figure>
+    <a href="#" class="button" target="_blank"><b>Gaming & Fun</b></a>
+  </article>
+</section>
+<footer>
+        <div class="foot">
+            <div class="foot-cont">
+                <div class="foot-sec about">
+                    <h1>Contact Our Creative Team</h1>
+                    <p>Collabrate and Build New Face of World with Creativity and Technical Skills</p>
+                    <div class="con">
+                      <span>&nbsp;#Mohit Gaggar</span>
+                      <span>&nbsp;gaggarmohit@gmail.com</span>
+                  </div>
+                  <div class="con">
+                    <span>&nbsp;#Abhishek Shyam</span>
+                    <span>&nbsp;abhibenne@gmail.com</span>
+                  </div>
+                  <div class="con">
+                    <span>&nbsp;#Sreekanth R Gunishetty</span>
+                    <span>&nbsp;sreekanthrg2000@gmail.com</span>
+                </div>
+                </div>
+                <div class="foot-sec link">
+                    <h2>Follow Us On</h2><br>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="foot-sec contact">
+                    <h2>Feedback To Move Forward</h2>
+                    <br>
+                    <form>
+                        <input type="email" name="mail" placeholder="Your email address.."></input><br>
+                        <input type="text-area" name="description" placeholder="Description.."></input><br>
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="foot-bottom">
+                &copy; ourfourm.com | Designed with love by SAM
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

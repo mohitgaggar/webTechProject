@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Add Notes</title>
+	<link rel="stylesheet" href="CSS/scheduleEvents.css">
+</head>
+  <body>
+  	<div id="wrapp">
+	    <header>
+	    	<div id="page_top">
+	    		<h1 class="title">Notes</h1>
+          <!-- <p>Simple page to add tasks</p> -->
+          <form id="search-task">
+            <input type="text" id="search-inp" autocomplete="off" placeholder="Search For a note..." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="task-list">
+	    	<h2 class="title-task">Your notes</h2>
+	    	<ol></ol>
+	    </div>
+	    <form id="add-task">
+        <input type="checkbox" id="hide" />
+        <label for="hide">Hide all Notes</label>
+			<input type="text" id="input-taskadd" autocomplete="off" placeholder="Add a note..." />
+			<br>
+	    	<button>Add</button>
+	    </form>
+    </div>
+	<script src="scheduleEvents.js"></script>
+  </body>
+</html>
+<!-- 
+
+
+let reminder=document.querySelector(".two");
+// let ev=document.addEventListener("ul");
+
+let t=setInterval(timing,1000);
+
+function timing()
+{
+
+	let date1 = new Date();
+	let date2 = new Date("Oct 24 2019 19:14:00");
+	let d=(date2 - date1) /1000;
+	let mins = (date2 - date1) / 1000 / 60 / 24;
+	if(mins <= 5)
+	{
+		// alert("Reminding u");
+	}
+	// console.log( "remain "  + days + " to <b>" +date2 + "</b>");
+	// document.write( " d "+d+ "</b>");
+} -->

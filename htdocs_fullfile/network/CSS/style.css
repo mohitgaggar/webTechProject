@@ -1,0 +1,228 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: yellow;
+}
+
+header{
+    display: flex;
+    padding: 0px 0px 10px 10px;
+    border-bottom: 3px black solid;
+    margin-bottom: 0px;
+    background-image:linear-gradient(45deg,#a3acac 0%,#f4f8f8 100%); 
+
+}
+
+header img{
+    height:80px ;
+    border-radius: 50%;
+    /* border: 1px red solid;  */
+
+}
+
+header h1{
+    
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px red solid;
+}
+
+
+#nav-ki-id{
+
+}
+ul a{
+    
+    color: rgb(198, 211, 12);
+    padding:5px 5px;
+    /* border: 1px; */
+    border-radius: 30%;
+    text-decoration: none; 
+}
+.container{
+    padding: 0px 0px;
+
+}
+form{
+    margin-left: 0;
+}
+form button{
+    font-size: 25px;
+    background-color: rgb(163, 160, 160);
+}
+form button a{
+    text-decoration: none; 
+    color:#ffffff;
+}
+
+#login
+{
+    height: 18cm;
+    background-color: rgb(194, 197, 187);
+
+
+}
+
+#login form 
+{
+    padding-left: 500px;
+    /* margin-left: 500px; */
+    padding-top:200px;
+    font-size: 25px; 
+}
+
+#login form input
+{
+    height:5%;
+    width:40%;
+    margin-bottom: 30px ;
+    background-color: #686868;
+    color: #fff;
+    border: 0;
+    font-size: 25px;
+}
+
+#login form button
+{
+    padding:5px;
+    /* margin:10px; */
+}
+
+#register
+{
+    height: 800px;
+    background-color: rgb(194, 197, 187);
+}
+#register form 
+{
+    padding-left: 500px;
+    /* margin-left: 500px; */
+    padding-top:50px;
+    font-size: 25px; 
+}
+#register form button
+{
+    padding:5px;
+    /* margin:10px; */
+}
+
+#register form input
+{
+    height:5%;
+    width:40%;
+    margin-bottom: 30px ;
+    background-color: #686868;
+    color: #fff;
+    border: 0;
+    font-size: 25px;
+}
+
+.one form p{
+    font-size: 20px;
+    padding:10px;
+
+}
+
+#profile-pic img  
+{
+    height:160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+#upload-pic
+{
+    font-size: 5px; 
+}
+
+ul a:hover{
+    background-color: aqua;
+    color:black;
+    background-image:linear-gradient(45deg,rgb(186, 219, 40) 0%,#07f8f8 100%); 
+    padding:5px 5px;
+    /* border: 1px blue solid; */
+    border-radius: 10%;
+}
+nav{
+    display: block;
+    padding: 10px;
+    /* border: 2px red solid; */
+}
+
+nav img{
+    height:30px ;
+    border-radius: 45%;
+}
+
+ul{
+    list-style-type:none; 
+    overflow: hidden;
+    font-size: 20px;
+}
+
+li{
+    /* float: left; */
+    margin:10px 10px;
+
+}
+ 
+
+html,body{
+    height:100%;
+    }
+.wrap{
+    min-height: 100%;
+    }
+.foot{
+    background: #303036;
+    color: #d3d3d3;
+    height: 350px;
+    position:relative;
+    }
+.foot .foot-bottom{
+    background: #343a40;
+    color: #686868;
+    height: 30px;
+    text-align:center;
+    width:100%;
+    position: absolute;
+    bottom: 0px;
+    padding-top: 10px;
+    }
+
+.foot .foot-cont .foot-sec{
+    flex:1;
+    border: 1px solid white;
+    padding:20px;
+    }
+.foot .foot-cont{
+    height:310px;
+    border:1px solid red;
+    display:flex;
+    width: 100%;
+    }
+.wrap .one
+    {
+    text-align: center;
+    height:400px;
+    background-color: lightblue;
+    padding-top:150px;
+    }
+.wrap .two
+    {
+    text-align: center;
+    height:400px;
+    background-color: lightgreen;
+    padding-top:150px;
+    }
+
+#register form span img
+{
+   height: 100px;
+   width: 100px;
+   border-radius:20%; 
+}

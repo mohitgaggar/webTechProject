@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boxes</title>
+	<style type="text/css">
+		.card{
+			background-color: white;
+			box-shadow: 0px 1px 5px #557;
+			display: grid;
+		}
+		.title_card{
+			font-size: 2rem;
+			padding: .5rem;
+			text-align: center;
+		}
+		.description{
+			padding: .5rem;
+			line-height: 1.6rem;
+		}
+		.button{
+			display: block;
+			background-color: tomato;
+			padding: 10px 20px;
+			color:white;
+			text-decoration: none;
+			text-align: center;
+			transition: .3s ease-out;
+			    &:hover {
+        background-color: darken(tomato, 10%);
+    }
+		}
+		.card-holder{
+			display: grid;
+			grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+			padding: 1rem;
+			grid-gap: 1rem;
+
+		}
+		.card .button{
+			align-self: end;
+		}
+		.imgg{
+			max-width: 100%;
+		}
+		.some{
+			padding-left: 100px;
+			padding-right: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="some">
+<section class="card-holder">
+	<article class="card">
+		<h2 class="title_card"> Topic 1</h2>
+		<figure class="card_img">
+			<img src="http://placekitten.com/700/287" class="imgg">
+		</figure>
+		<div class="description">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<a href="#" class="button">Navigate here</a>
+	</article>
+
+		<article class="card">
+		<h2 class="title_card"> Topic 2</h2>
+		<figure class="card_img">
+			<img src="http://placekitten.com/700/287" class="imgg">
+		</figure>
+		<div class="description">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<a href="#" class="button">Navigate here</a>
+	</article>
+
+		<article class="card">
+		<h2 class="title_card"> Topic 3</h2>
+		<figure class="card_img">
+			<img src="http://placekitten.com/700/287" class="imgg">
+		</figure>
+		<div class="description">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<a href="#" class="button">Navigate here</a>
+	</article>
+
+		<article class="card">
+		<h2 class="title_card"> Topic 4</h2>
+		<figure class="card_img">
+			<img src="http://placekitten.com/700/287" class="imgg">
+		</figure>
+		<div class="description">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<a href="#" class="button">Navigate here</a>
+	</article>
+
+		<article class="card">
+		<h2 class="title_card"> Topic 5</h2>
+		<figure class="card_img">
+			<img src="http://placekitten.com/700/287" class="imgg">
+		</figure>
+		<div class="description">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<a href="#" class="button">Navigate here</a>
+	</article>
+
+		<article class="card">
+		<h2 class="title_card"> Topic 6</h2>
+		<figure class="card_img">
+			<img src="http://placekitten.com/700/287" class="imgg">
+		</figure>
+		<div class="description">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<a href="#" class="button">Navigate here</a>
+	</article>
+</section>
+</div>
+</body>
+</html>
+
+
+<!--
+<html>
+<head>
+<style type="text/css">
+	.card-container {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+.card {
+    display: grid;
+}
+.card .button {
+    align-self: end;
+}
+
+
+/* Simple Card styles for prettying */
+
+html {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+body {
+    background-color: #efefef;
+}
+* {
+    box-sizing: border-box;
+}
+.card {
+    box-shadow: 0px 1px 5px #555;
+    background-color: white;
+}
+.card__title {
+    font-size: 2rem;
+    padding: .5rem;
+}
+.card__description {
+    padding: .5rem;
+    line-height: 1.6em;
+}
+.button {
+    display: block;
+    background-color: tomato;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s ease-out;
+    &:hover {
+        background-color: darken(tomato, 10%);
+    }
+}
+img {
+    max-width: 100%;
+}
+</style>
+</head>
+<body>
+<section class="card-container">
+    <article class="card">
+        <header class="card__title">
+            <h3>Hello World</h3>
+        </header>
+        <figure class="card__thumbnail">
+            <img src="http://placekitten.com/700/287">
+        </figure>
+        <main class="card__description">
+            Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun
+        </main>
+        <a href="#" class="button">Call to Action</a>
+
+    </article>
+    <article class="card">
+        <header class="card__title">
+            <h3>Hello World</h3>
+        </header>
+        <figure class="card__thumbnail">
+            <img src="http://placekitten.com/700/287">
+        </figure>
+        <main class="card__description">
+            Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+        </main>
+        <a href="#" class="button">Call to Action</a>
+
+    </article>
+    <article class="card">
+        <header class="card__title">
+            <h3>Hello World</h3>
+        </header>
+        <figure class="card__thumbnail">
+            <img src="http://placekitten.com/700/287">
+        </figure>
+        <main class="card__description">
+            Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+        </main>
+        <a href="#" class="button">Call to Action</a>
+
+    </article>
+    <article class="card">
+        <header class="card__title">
+            <h3>Hello World</h3>
+        </header>
+        <figure class="card__thumbnail">
+            <img src="http://placekitten.com/700/287">
+        </figure>
+        <main class="card__description">
+            Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+        </main>
+        <a href="#" class="button">Call to Action</a>
+
+    </article>
+    <article class="card">
+        <header class="card__title">
+            <h3>Hello World</h3>
+        </header>
+        <figure class="card__thumbnail">
+            <img src="http://placekitten.com/700/287">
+        </figure>
+        <main class="card__description">
+            Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+        </main>
+        <a href="#" class="button">Call to Action</a>
+
+    </article>
+    <article class="card">
+        <header class="card__title">
+            <h3>Hello World</h3>
+        </header>
+        <figure class="card__thumbnail">
+            <img src="http://placekitten.com/700/287">
+        </figure>
+        <main class="card__description">
+            Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+        </main>
+        <a href="#" class="button">Call to Action</a>
+
+    </article>
+    <article class="card">
+        <header class="card__title">
+            <h3>Hello World</h3>
+        </header>
+        <figure class="card__thumbnail">
+            <img src="http://placekitten.com/700/287">
+        </figure>
+        <main class="card__description">
+            Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+        </main>
+        <a href="#" class="button">Call to Action</a>
+
+    </article>
+    <article class="card">
+        <header class="card__title">
+            <h3>Hello World</h3>
+        </header>
+        <figure class="card__thumbnail">
+            <img src="http://placekitten.com/700/287">
+        </figure>
+        <main class="card__description">
+            Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+        </main>
+        <a href="#" class="button">Call to Action</a>
+
+    </article>
+     <article class="card">
+        <header class="card__title">
+            <h3>Hello World</h3>
+        </header>
+        <figure class="card__thumbnail">
+            <img src="http://placekitten.com/700/287">
+        </figure>
+        <main class="card__description">
+            Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+        </main>
+        <a href="#" class="button">Call to Action</a>
+
+    </article>
+    <article class="card">
+        <header class="card__title">
+            <h3>Hello World</h3>
+        </header>
+        <figure class="card__thumbnail">
+            <img src="http://placekitten.com/700/287">
+        </figure>
+        <main class="card__description">
+            Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+        </main>
+        <a href="#" class="button">Call to Action</a>
+
+    </article>
+</section>
+</body>
+</html>
+-->
